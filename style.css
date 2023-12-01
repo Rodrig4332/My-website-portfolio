@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+  
+ /* Basic styling */
+body {
+    font-family: Monserrat, sans-serif;
+    margin: 0;
+    background-image: url(https://images.unsplash.com/photo-1617791160536-598cf32026fb?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+  }
+
+header {
+    color: #f4f4f4;
+    text-align: left;
+    padding: 5px 5px;
+    margin-top: 0;
+  }
+
+  nav {
+    text-align: right;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    font-family: Monserrat, sans-serif;
+  }
+
+  .dropdown {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    background-color: #0449aa;
+    font-size: 25px;
+  }
+
+  .dropbtn {
+    background-color: #0449aa;
+    color: white;
+    padding: 16px;
+    font-size: 18px;
+    font-family: Monserrat, sans-serif;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    text-align: right;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: rgb(18, 45, 144);}
+
+main {
+    padding: 20px 0;
+  }
+  
+ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+h1 {
+    font-size: 50px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+  }
+
+img {
+    border-radius: 10px;
+    width: 250px;
+    height: 350px;
+ }
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+li {
+    font-size: 30px;
+    padding: 5px;
+    list-style-type: none;
+  }
+
+.container {
+    background-image: url(https://images.unsplash.com/photo-1516116216624-53e697fedbea?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    margin: 0;
+    border-radius: 3px;
+    background-size: cover;
+  }
+
+p {
+    font-size: 30px;
+}
+  
+#skills {
+    background-image: url(https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.jpg?s=1024x1024&w=is&k=20&c=tqmT0pKYG9E3-8-QbmEkboNXHLOmn0iPtS1odzGwoUM=);
+    font-size: 15px;
+    padding: 1.5em;
+    border-radius: 5px;
+  }
+
+.container6 {
+    font-size: 20px;
+}
+
+.project {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+ 
+#contact-me {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-family: Monserrat, sans-serif;
+  }
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    font-size: 30px;
+    color: dodgerblue;
+  }
+  
+footer {
+    margin-top: 5px;
+    font-size: 25px;
+    color: rgb(238, 244, 247);
+    border-radius: 3px;
+    background-image: url(https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
