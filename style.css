@@ -136,8 +136,9 @@ p {
     padding-bottom: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex; /* Display images in a row */
+    justify-content: space-around; /* Space around the images */
+    align-items: center; 
 }
  
 #contact-me {
