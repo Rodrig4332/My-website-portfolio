@@ -137,14 +137,14 @@ p {
     margin-bottom: 20px;
     margin-left: 10px;
     display: flex; /* Display images in a row */
-    justify-content: space-around; /* Space around the images */
+    justify-content: space-evenly;
     align-items: center; 
 }
  
 #contact-me {
     display: flex;
     justify-content: space-evenly;
-    font-size: 30px;
+    font-size: large;
     font-family: Monserrat, sans-serif;
   }
 
@@ -162,4 +162,11 @@ footer {
     color: rgb(238, 244, 247);
     border-radius: 3px;
     background-image: url(https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+
+  @media (min-width:319px) and (max-width:600px){
+    .project-container {
+      display: inline-block;
+      gap: 10px;
+    }
   }
