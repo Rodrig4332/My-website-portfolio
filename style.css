@@ -136,7 +136,7 @@ p {
     padding-bottom: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
-    display: flex; /* Display images in a row */
+    display: flex;
     justify-content: space-evenly;
     align-items: center; 
 }
@@ -164,7 +164,7 @@ footer {
     background-image: url(https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   }
 
-  @media (min-width:319px) and (max-width:600px){
+  @media (min-width:480px) and (max-width:600px){
     .project-container {
       display: inline-block;
       gap: 10px;
