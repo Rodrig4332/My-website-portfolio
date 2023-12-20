@@ -20,10 +20,9 @@ header {
   }
 
   nav {
-    text-align: right;
+    text-align: center;
     margin-bottom: 5px;
-    margin-right: 10px;
-    font-family: Monserrat, sans-serif;
+    font-family: 'Monserrat', sans-serif;
   }
 
   .dropdown {
@@ -42,7 +41,7 @@ header {
     color: white;
     padding: 16px;
     font-size: 18px;
-    font-family: Monserrat, sans-serif;
+    font-family: 'Monserrat', sans-serif;
     border: none;
     border-radius: 5px;
   }
