@@ -30,7 +30,6 @@ header {
     justify-content: center;
     position: fixed;
     width: 100%;
-    border: none;
     cursor: pointer;
     background-color: #0449aa;
     font-size: 25px;
@@ -143,8 +142,9 @@ p {
 #contact-me {
     display: flex;
     justify-content: space-evenly;
+    flex-direction: column;
     font-size: large;
-    font-family: Monserrat, sans-serif;
+    font-family: 'Monserrat', sans-serif;
   }
 
 .social {
