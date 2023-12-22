@@ -142,7 +142,7 @@ p {
 #contact-me {
     display: flex;
     justify-content: space-evenly;
-    flex-direction: column;
+    flex-direction: wrap;
     font-size: large;
     font-family: 'Monserrat', sans-serif;
   }
