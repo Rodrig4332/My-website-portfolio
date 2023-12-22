@@ -143,16 +143,17 @@ li {
     margin-bottom: 20px;
     margin-left: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center; 
 }
  
 #contact-me {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: row;
     font-size: large;
     font-family: 'Monserrat', sans-serif;
+    gap: 40px;
   }
 
 .social {
