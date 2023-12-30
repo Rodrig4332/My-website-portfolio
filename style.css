@@ -26,7 +26,7 @@ header {
     text-align: center;
     margin-bottom: 5px;
     margin-top: 10px;
-    font-family: 'Monserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .dropdown {
@@ -81,6 +81,15 @@ main {
 ul {
     display: flex;
     justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    font-size: 30px;
+    padding: 5px;
+    list-style-type: none;
   }
 
 h1 {
@@ -102,22 +111,10 @@ h3 {
   }
 
 img {
-    border-radius: 10px;
+    border-radius: 5px;
     width: 250px;
     height: 350px;
  }
-
- ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-li {
-    font-size: 30px;
-    padding: 5px;
-    list-style-type: none;
-  }
 
 .container {
     background-image: url(https://images.unsplash.com/photo-1516116216624-53e697fedbea?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
@@ -144,7 +141,8 @@ li {
     margin-left: 10px;
     display: flex;
     justify-content: space-evenly;
-    align-items: center; 
+    flex-wrap: wrap;
+    gap: 15px; 
 }
  
 #contact-me {
