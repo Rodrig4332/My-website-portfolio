@@ -149,7 +149,16 @@ img {
     flex-wrap: wrap;
     gap: 15px; 
 }
+
+.project-container img{
+  box-shadow: 5px 10px 10px rgba(0,0,0,0.8);
+}
  
+.project-container p {
+  font-weight: bold;
+  font-size: 25px;
+}
+
 #contact-me {
     display: flex;
     justify-content: center;
